@@ -18,7 +18,7 @@ def testMyVM():
     password.send_keys('gocontact', Keys.ENTER)
 
     expected_text = 'teste'
-    username_element = wait.until(EC.visibility_of_element_located((By.XPATH, "//div[@class='user-username']//span[@id='profile-userName']")))
+    username_element = wait.until(EC.visibility_of_element_located((By.XPATH, "//span[@id='profile-userName']")))
     actual_text = username_element.text
 
     assert expected_text == actual_text, f'Error. {expected_text} is not equal to {actual_text}'
