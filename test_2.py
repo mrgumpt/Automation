@@ -2,7 +2,7 @@ import pytest
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-class TestAmazon:
+class Test_nav_cart:
     driver = ''
     def setup_method(self):
         self.driver = webdriver.Chrome()
