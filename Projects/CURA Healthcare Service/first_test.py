@@ -1,7 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
-import org.openqa.selenium.support.ui.Select
+
 
 
 class Test_CURA:
